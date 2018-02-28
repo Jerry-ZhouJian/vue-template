@@ -95,21 +95,6 @@ module.exports = {
       type:'confirm',
       message:'Install vue-cookie'
     },
-    scriptLoader:{
-      when: 'isNotTest',
-      type: 'confirm',
-      message: 'Install script-loader?'
-    },
-    fileSaver:{
-      when: 'isNotTest',
-      type: 'confirm',
-      message: 'Install file-saver?'
-    },
-    xlsx:{
-      when: 'isNotTest',
-      type: 'confirm',
-      message: 'Install xlsx?'
-    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
