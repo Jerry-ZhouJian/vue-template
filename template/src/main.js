@@ -8,16 +8,9 @@ import App from './App'
 import router from './router'
 {{/router}}
 
-{{#elementUi}}
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-Vue.use(ElementUI)
-{{/elementUi}}
-
 {{#vuex}}
 import store from './store'
 {{/vuex}}
-
 
 {{#axios}}
 import axios from 'axios'
